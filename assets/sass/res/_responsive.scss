@@ -1,0 +1,122 @@
+@media all and (max-width: 1200px) and (min-width: 768px) {}
+
+@media (min-width: 560px) {
+    .c-modal {
+        min-width: 400px;
+    }
+}
+
+@media (min-width: 768px) {
+    .fancybox-slide>.c-modal {
+        padding: 40px; // min-width: 500px;
+    }
+    .modal1 {
+        min-width: 500px;
+    }
+}
+
+@media (min-width: 991px) {
+    .help-swipe {
+		display: none
+	}
+}
+
+@media (min-width: 1300px) {
+    .container {
+        min-width: 1200px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .section-genplan {
+        height: inherit;
+    }
+    .section-genplan img {
+        height: inherit;
+        max-width: 100%;
+    }
+    .wrap-genplan {
+        height: inherit;
+        display: block;
+    }
+    .fancybox-inner .btn-sh {
+        bottom: 40px;
+    }
+}
+
+@media (max-width: 1440px) and (min-width: 991px) {}
+
+@media (max-width: 1340px) {
+    .contact-content {
+        .heading {
+            margin-bottom: 20px;
+        }
+    }
+    .list-contacts .item {
+        margin-bottom: 20px;
+    }
+    .contact-content .form {
+        margin-top: 10px;
+    }
+    .fancybox-inner .btn-sh {
+        bottom: 30px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header .main-nav>ul>li>a {
+        padding: 3px 12px;
+        font-size: 13px;
+    }
+    .header .logo img {
+        width: 180px;
+    }
+    #wrap {
+        padding-top: 76px;
+    }
+    .section {
+        margin-bottom: 30px;
+    }
+    .heading {
+        margin-bottom: 20px;
+    }
+    body {
+        font-size: 14px;
+    }
+    .main-slider .owl-prev:before,
+    .main-slider .owl-next:before {
+        display: block;
+        content: "";
+        width: 26px;
+        height: 26px;
+        border-bottom: 7px solid #936D4C;
+        border-right: 7px solid #936D4C;
+    }
+    .wrap-genplan .item {
+        font-size: 9px;
+        padding: 10px 7px 3px;
+        width: 76px;
+    }
+    .wrap-genplan .item:before {
+        border-width: 10px 38px 0 38px;
+        bottom: -10px;
+    }
+    .section-genplan {
+        margin-bottom: 0;
+    }
+    .head-row .links {
+        margin-bottom: 20px;
+    }
+    .fancybox-inner .btn-sh {
+        width: 100%;
+        z-index: 99999;
+    }
+}
+
+@media (max-width: 1100px) {
+    .adr-list {
+        display: none;
+    }
+}
+
+@media all and (max-width: 1300px) and (min-width: 1200px) {}
